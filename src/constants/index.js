@@ -41,6 +41,9 @@ import {
   ev,
   airbnb,
   segmen,
+  edunet,
+  infoc,
+  finance,
   
 
 } from "../assets";
@@ -145,7 +148,7 @@ import { SiDatacamp } from "react-icons/si";
 import { SiOpensearch } from "react-icons/si";
 import { SiRobotframework } from "react-icons/si";
 
-export const resumeLink = "https://drive.google.com/file/d/1ZKX7_KEG0EDg4LA10L1d7rXf8nW9Vcgc/view?usp=drive_link";
+export const resumeLink = "https://drive.google.com/file/d/13wMwJDFieLsmHCvzZCtnGDIogHNpWIGY/view?usp=drive_link";
 export const repoLink = "";
 
 export const callToAction = "https://www.linkedin.com/in/siva-suriyan";
@@ -368,6 +371,62 @@ export const skills = [
 
 export const experiences = [
   {
+    organisation: "Infochola Solutions Pvt Ltd, Tiruchirappalli, Tamil Nadu, India",
+    logo: infoc,
+    link: "https://www.linkedin.com/company/infocdotcom/",
+    positions: [
+      {
+        title: "Associate Data Analyst Trainee",
+        duration: "May 2025 - Present 2025",
+        content: [
+          {
+            text: "• Built an end-to-end Power BI dashboard using Microsoft’s Financial Sample Dataset to analyze global sales, profit trends, segment performance, and KPI scorecards.",
+            link: "",
+          },
+      
+          {
+            text: "• Gained hands-on experience with Power BI Desktop, Power BI Service, and Microsoft Fabric, including data modeling, DAX, publishing, and workspace management.",
+            link: "",
+          },
+
+          {
+            text: "• Led a team of trainees, coordinated deliverables, and reported progress and blockers to senior analysts.",
+            link: "",
+          },
+          
+        ],
+      },
+    ],
+  },
+  {
+    organisation: "Edunet Foundation, Bangalore, Karnataka, India",
+    logo: edunet,
+    link: "https://www.linkedin.com/company/edunetfoundation/",
+    positions: [
+      {
+        title: "Power BI Analyst Intern",
+        duration: "Jan 2025 - Feb 2025",
+        content: [
+          {
+            text: "• Developed interactive dashboards analyzing supply chain revenue ($578K), costs ($106K), profit margin (86.07%), and defect rates (2.28%), improving decision-making.",
+            link: "",
+          },
+      
+          {
+            text: "• Utilized DAX measures, Power Query, and data modeling to optimize insights, identifying cosmetics as the highest defect rate (36.87%) category and Supplier 3 as the most profitable (91.08%).",
+            link: "",
+          },
+
+          {
+            text: "• Recommended strategies that optimized logistics, reducing lead times (29 days max), improving supplier selection, and projecting a 10% defect rate reduction.",
+            link: "",
+          },
+          
+        ],
+      },
+    ],
+  },
+  {
     organisation: "Codtech IT Solutions, India",
     logo: codtech,
     link: "https://www.linkedin.com/company/codtechitsolutions/",
@@ -377,12 +436,12 @@ export const experiences = [
         duration: "Aug 2024 - Oct 2024",
         content: [
           {
-            text: "Conducted a comprehensive analysis of a dataset to uncover trends, patterns, and insights. Utilized Python and libraries such as Pandas and Matplotlib for data manipulation and visualization, resulting in actionable recommendations that enhanced decision-making processes.",
+            text: "• Conducted a comprehensive analysis of a dataset to uncover trends, patterns, and insights. Utilized Python and libraries such as Pandas and Matplotlib for data manipulation and visualization, resulting in actionable recommendations that enhanced decision-making processes.",
             link: "",
           },
       
           {
-            text: "Developed complex SQL queries to extract and analyze data from relational databases. Focused on cleaning and transforming data to support business intelligence efforts, significantly improving reporting accuracy and efficiency.",
+            text: "• Developed complex SQL queries to extract and analyze data from relational databases. Focused on cleaning and transforming data to support business intelligence efforts, significantly improving reporting accuracy and efficiency.",
             link: "",
           },
           
@@ -390,6 +449,7 @@ export const experiences = [
       },
     ],
   },
+
   
 ];
 
@@ -398,6 +458,39 @@ export const experiences = [
 export const projects = [
   {
     id: "project-1",
+    title: "Global Financial Performance Analysis",
+    github: "https://github.com/SivaSuriyan-M/Global-Financial-Performance-Analysis",
+    
+    image: finance,
+    content: [
+      " This Power BI dashboard was developed during my Associate Data Analyst Trainee role at Infochola Solutions.",
+      " It delivers a detailed analysis of financial performance using Microsoft’s Financial Sample Dataset, uncovering key insights across country, product, segment, and time to guide strategic business decisions.",
+    ],
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiPowerbi,
+        name: "Power BI"
+      },
+      {
+        id: "icon-2",
+        icon: AiFillDatabase,
+        name: "Data Cleaning"
+      },
+      {
+        id: "icon-3",
+        icon: SiOpenai,
+        name: "Data Transformation"
+      },
+      {
+        id: "icon-5",
+        icon: AiOutlineAreaChart,
+        name: "Data visualization"
+      },
+    ],
+  },
+  {
+    id: "project-2",
     title: "B&J Biscuit Business Analysis",
     github: "https://github.com/SivaSuriyan-M/B-J-Biscuit-Business-Analysis",
     
@@ -436,7 +529,7 @@ export const projects = [
     ],
   },
   {
-    id: "project-2",
+    id: "project-3",
     title: "Exploratory Data Analysis on Marvel Characters",
     github: "https://github.com/SivaSuriyan-M/Exploratory-Data-Analysis-of-Marvel-Characters",
     
@@ -476,7 +569,7 @@ export const projects = [
     ],
   },
   {
-    id: "project-3",
+    id: "project-4",
     title: "Quantifying the Impact of Layoffs: A Comprehensive SQL Analysis",
     github: "https://github.com/SivaSuriyan-M/Quantifying-the-Impact-of-Layoffs-A-Comprehensive-SQL-Analysis",
     
@@ -505,7 +598,7 @@ export const projects = [
     ],
   },
   {
-    id: "project-4",
+    id: "project-5",
     title: "Cleaning Layoffs Data for Advanced Analytics Using SQL",
     github: "https://github.com/SivaSuriyan-M/Cleaning-Layoffs-Data-for-Advanced-Analytics-Using-SQL",
     
@@ -535,7 +628,7 @@ export const projects = [
     ],
   },
   {
-    id: "project-5",
+    id: "project-6",
     title: "Advanced Customer Churn Analysis with SQL and Power BI",
     github: "https://github.com/SivaSuriyan-M/Advanced-Customer-Churn-Analysis-with-SQL-and-Power-BI",
     
@@ -564,7 +657,7 @@ export const projects = [
     ],
   },
   {
-    id: "project-6",
+    id: "project-7",
     title: "Electric Vehicle Market Analysis: Insights into BEVs, PHEVs, and Adoption Trends",
     github: "https://github.com/SivaSuriyan-M/Electric-Vehicle-Market-Analysis-Insights-into-BEVs-PHEVs-and-Adoption-Trends",
     
@@ -593,7 +686,7 @@ export const projects = [
     ],
   },
   {
-    id: "project-7",
+    id: "project-8",
     title: "Exploratory Data Analysis on NYC Airbnb Listings",
     github: "https://github.com/SivaSuriyan-M/Exploratory-Data-Analysis-EDA-on-New-York-City-Airbnb-Listings-Dataset",
     
@@ -628,7 +721,7 @@ export const projects = [
     ],
   },
   {
-    id: "project-8",
+    id: "project-9",
     title: "Customer Segmentation Using RFM Analysis",
     github: "https://github.com/SivaSuriyan-M/Customer-Segmentation-Using-RFM-Analysis",
     
@@ -657,7 +750,7 @@ export const projects = [
     ],
   },
   {
-    id: "project-9",
+    id: "project-10",
     title: "Deepfake Detection",
     github: "https://github.com/SivaSuriyan-M/Deepfake-Detection-Using-Machine-Learning",
     

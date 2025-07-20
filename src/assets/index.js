@@ -63,6 +63,9 @@ import churn from "./churn.png";
 import airbnb from "./airbnb.jpg";
 import ev from "./EV.jpg";
 import segmen from "./segmen.png";
+import edunet from "./edunet.jpg";
+import infoc from "./infoc.png";
+import finance from "./finance_proj.jpg";
 
 export {
   quotes,
@@ -130,4 +133,7 @@ export {
   airbnb,
   segmen,
   ev,
+  edunet,
+  infoc,
+  finance,
 };
