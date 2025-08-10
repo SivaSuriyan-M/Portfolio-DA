@@ -66,6 +66,7 @@ import segmen from "./segmen.png";
 import edunet from "./edunet.jpg";
 import infoc from "./infoc.png";
 import finance from "./finance_proj.jpg";
+import microsoftlogo22 from "./microsoftlogo.jpg";
 
 export {
   quotes,
@@ -136,4 +137,5 @@ export {
   edunet,
   infoc,
   finance,
+  microsoftlogo22,
 };

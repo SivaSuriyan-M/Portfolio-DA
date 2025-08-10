@@ -44,8 +44,7 @@ import {
   edunet,
   infoc,
   finance,
-  
-
+  microsoftlogo22,
 } from "../assets";
 
 import {
@@ -148,7 +147,7 @@ import { SiDatacamp } from "react-icons/si";
 import { SiOpensearch } from "react-icons/si";
 import { SiRobotframework } from "react-icons/si";
 
-export const resumeLink = "https://drive.google.com/file/d/13wMwJDFieLsmHCvzZCtnGDIogHNpWIGY/view?usp=drive_link";
+export const resumeLink = "https://drive.google.com/file/d/1Y2JRCYR2NKo2zxGCRTclocSumoCOujNJ/view?usp=drive_link";
 export const repoLink = "";
 
 export const callToAction = "https://www.linkedin.com/in/siva-suriyan";
@@ -201,6 +200,18 @@ export const educationList = [
 export const achievements = [
   {
     id: "a-1",
+    icon: microsoftlogo22,
+    event: "Microsoft Certified: Power BI Data Analyst Associate (PL-300)",
+    position: "Microsoft",
+    content1: "An industry-recognized certification that validates expertise in preparing, modeling, and visualizing data using Microsoft Power BI.",
+    content2: "Focused on transforming raw data into actionable insights through interactive dashboards, advanced data modeling, and DAX (Data Analysis Expressions).",
+    
+    
+    project: "https://learn.microsoft.com/api/credentials/share/en-us/SivaSuriyan-1975/4941A3EE3B9F442B?sharingId=6DBC1AC8A2F8872F",
+    
+  },
+  {
+    id: "a-2",
     icon: googlelogo,
     event: "Google Data Analytics Professional Certificate",
     position: "Google",
@@ -212,7 +223,7 @@ export const achievements = [
     
   },
   {
-    id: "a-2",
+    id: "a-3",
     icon: tcslogo,
     event: "TCS iON Career Edge - Young Professional",
     position: "TCS iON",
@@ -222,7 +233,7 @@ export const achievements = [
     project: "https://drive.google.com/file/d/1yhy3xSLjRMaFY7NCpDM_n1QaxwicXwVE/view?usp=drivesdk",
   },
   {
-    id: "a-3",
+    id: "a-4",
     icon: ibmlogo,
     event: "Python for Data Science",
     position: "IBM",
@@ -232,7 +243,7 @@ export const achievements = [
     project: "https://courses.cognitiveclass.ai/certificates/d1fadb37cddb412c8c4fea0584572739",
   },
   {
-    id: "a-4",
+    id: "a-5",
     icon: googlelogo,
     event: "Share Data Through the Art of Visualization",
     position: "Google",
@@ -243,7 +254,7 @@ export const achievements = [
     project: "https://www.coursera.org/account/accomplishments/records/5400ZCIGJBZC",
   },
   {
-    id: "a-5",
+    id: "a-6",
     icon: googlelogo,
     event: "Analyze Data to Answer Questions",
     position: "Google",
@@ -386,6 +397,11 @@ export const experiences = [
       
           {
             text: "• Gained hands-on experience with Power BI Desktop, Power BI Service, and Microsoft Fabric, including data modeling, DAX, publishing, and workspace management.",
+            link: "",
+          },
+
+          {
+            text: "• Earned Microsoft PL-300: Power BI Data Analyst Associate certification (85%) and applied it to real-world projects, demonstrating end-to-end proficiency in data preparation, modeling, DAX, visualization, and insight-driven storytelling.",
             link: "",
           },
 
@@ -535,7 +551,7 @@ export const projects = [
     
     image: marvel,
     content: [
-      "Performed an in-depth Exploratory Data Analysis (EDA) on a dataset of Marvel comic characters.",
+      " Performed an in-depth Exploratory Data Analysis (EDA) on a dataset of Marvel comic characters.",
       " Handled missing data, transformed columns into numeric types, and cleaned the dataset to ensure accurate analysis.",
       " Gained insights into character popularity, gender representation, alignment, survival status, and debut trends over time.",
     ],
@@ -834,6 +850,6 @@ export const socialMedia = [
 
 export const aboutMe = {
     name: "Siva Suriyan",
-    tagLine: "Data Analyst Enthusiast | Crafting Data Stories | SQL, Spreadsheet, Python, Tableau, MySQL | Google Data Analytics Certified | Let's Connect!",
-    intro: " A Passionate Data Analytics enthusiast and a 2024 B.Tech IT graduate. I'm certified in Google Data Analytics and skilled in SQL, Python, and data visualization. I enjoy transforming complex data into actionable insights and impactful stories."
+    tagLine: "Data Analyst Enthusiast | Microsoft Certified Power BI Analyst | PL-300 | Google Data Analytics Certified | Crafting Data Stories | Power Bi • Tableau • SQL • Spreadsheet • Python • MySQL | Let's Connect!",
+    intro: "Certified Data Analyst (PL-300) with hands-on experience in Power BI, SQL, Excel, and Python. Skilled in building interactive dashboards, data modeling, and extracting insights to solve real-world business problems. Proven ability to deliver data driven solutions through industry projects."
 }
